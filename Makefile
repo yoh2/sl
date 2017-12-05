@@ -11,7 +11,7 @@ CFLAGS=-O -Wall
 
 all: sl
 
-sl: sl.c sl.h
+sl: sl.c sl.h header.h
 	$(CC) $(CFLAGS) -o sl sl.c -lncurses
 
 clean:
